@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&display=swap');
 
 header {
     background-color: #5c1328;
@@ -62,4 +62,44 @@ header h1 {
 
 .burger span::before {
     transform: translateY(-3.5px) translateX(-16px);
+}
+
+.main_page {
+    padding: 36px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_page h1 {
+    margin: 0 0;
+    margin-bottom: 28px;
+    color: #5c1328;
+    font-family: Cormorant;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.main_page button {
+    background-color: #5c1328;
+    border-radius: 0;
+    border: 0;
+   /* font-family: Cormorant; */
+    font-weight: 550;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.vacancies_button {
+    width: 100%;
+    border-top: 1px solid #5c1328;
+    padding-top: 5px;
+    border-bottom: 1px solid #5c1328;
+    padding-bottom: 5px;
 }
