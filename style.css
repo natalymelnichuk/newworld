@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&display=swap');
+
+header {
+    background-color: #5c1328;
+    padding: 28px 30px;
+
+}
+
+.container_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-family: Cormorant;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0;
+}
+
+.menu .burger {
+    border: none;
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+}
+
+
+.burger span::after, 
+.burger span::before {   
+    content: '';     
+    position: absolute;
+    top: 50%;
+    margin-top:  -1px ;
+    width: 32px;
+    height: 1px;
+    transform: translateX(-16px);
+    color: white;
+}
+
+.burger span::after,
+.burger span::before { 
+    content: ''; 
+    position: absolute;
+    top: 50%;
+    margin-top:  -1px ;
+    width: 32px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.burger span::after {
+    transform: translateY(3.5px) translateX(-16px);
+}
+
+.burger span::before {
+    transform: translateY(-3.5px) translateX(-16px);
+}
