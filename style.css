@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&display=swap');
 @import url(/newworld/fonts.css);
 
+* {
+    margin: 0 0;
+}
+
+
 header {
     background-color: #5c1328;
     padding: 28px 30px;
@@ -70,6 +75,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F5F2EC;
 }
 
 .main_page h1 {
@@ -103,4 +109,14 @@ header h1 {
     padding-top: 5px;
     border-bottom: 1px solid #5c1328;
     padding-bottom: 5px;
+}
+
+.introduction {
+    margin: 0 0;
+    padding: 40px 30px;
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666462;
 }
