@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&display=swap');
+@import url(/newworld/fonts.css);
 
 header {
     background-color: #5c1328;
@@ -86,8 +87,8 @@ header h1 {
     background-color: #5c1328;
     border-radius: 0;
     border: 0;
-   /* font-family: Cormorant; */
-    font-weight: 550;
+    font-family: HelveticaNeueCyr; 
+    font-weight: 500;
     font-style: normal;
     font-size: 14px;
     line-height: 15px;
