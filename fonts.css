@@ -72,3 +72,9 @@
     font-weight: 100;
     src: url(/newworld/Fonts/HelveticaNeueCyr_Thin_Italic/HelveticaNeueCyr_Thin_Italic.ttf);
 }
+
+@font-face {
+    font-family: 21 cent;
+    font-weight: 400;
+    src: url(/newworld/Fonts/21Cent.ttf);
+}
